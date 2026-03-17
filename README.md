@@ -1,5 +1,7 @@
 # Granola Transcripts Skill for Claude Code
 
+Granola's MCP is good at querying individual meeting summaries, but breaks when you try to export multiple transcripts at once. This skill fixes that problem.
+
 A Claude Code skill + hook that fetches and saves [Granola](https://granola.ai) meeting transcripts to local files. Solves two problems that make Granola's MCP server painful to use with Claude Code:
 
 1. **Context bloat** - Transcripts are 30-40KB each. They enter the conversation context and make everything slow. The hook auto-saves transcripts to files so the agent doesn't need to process them.
