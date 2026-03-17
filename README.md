@@ -6,7 +6,7 @@ A Claude Code skill + hook that fetches and saves [Granola](https://granola.ai) 
 
 2. **Aggressive rate limiting** - Fetching 2-3 transcripts back-to-back triggers a 6-10 minute lockout. The skill teaches the agent to wait between fetches and never retry during a lockout.
 
-![Granola MCP]([(https://www.granola.ai/updatesImages/mcp-launch.png])
+![Granola MCP](https://www.granola.ai/updatesImages/mcp-launch.png)
 
 ## How it works
 
